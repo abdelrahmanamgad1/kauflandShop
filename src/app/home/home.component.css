@@ -1,0 +1,8 @@
+:host {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+}

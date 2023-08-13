@@ -1,0 +1,27 @@
+<div class="card-group">
+
+    <div class="card">
+        <img
+        [src]="productInformation.thumbnail"
+        alt="{{ productInformation.title }}"
+      />
+        <div class="card-body">
+          <h5 class="card-title">{{ productInformation.title }}</h5>
+          <p class="card-text">
+            Price: {{ productInformation.price }}$
+          </p>
+          <p class="card-text">
+            Discount: {{ productInformation.discountPercentage }}%
+          </p>
+          <p class="card-text">
+            Description: {{ productInformation.description }}
+          </p>
+          <p class="card-text">
+            Rating: {{ productInformation.rating }}/5
+          </p>
+          <p class="card-text">
+            Stock: {{ productInformation.stock }}
+          </p>
+        </div>
+      </div>
+</div>
